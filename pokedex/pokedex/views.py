@@ -1,9 +1,8 @@
-from multiprocessing import context
 from django.shortcuts import render
 import requests
 
 # liste de pokémon dans la limite de 151
-urlPokedex = 'https://pokeapi.co/api/v2/pokemon?limit=151&offset=0' 
+urlPokedex = 'https://pokeapi.co/api/v2/pokemon?limit=151&offset=0'
 
 
 def index(request):

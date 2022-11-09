@@ -5,18 +5,18 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="/pokedex/static/style.css">
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{%  static '/style.css' %}">
   <title>Pokedex</title>
 </head>
 
 <body>
   <h1>Bienvenue sur notre Pokedex</h1>
   <p>Nombre de pokémon disponible : {{ pokemon_list|length }}</p>
-  <div class="pokemon_container">
+  <div class=" pokemon_container">
     {% for p in pokemon_list %}
-    {{ p }}
     <div class="pokemon_card">
-      <div><img src="" alt="img_pokemon"></div>
+      <div><img src="/static/img/{{forloop.counter}}.png" alt="img_pokemon"></div>
       <div class="pokemon_info">
         <p class="pokemon_number"></p>
         <h3 class="pokemon_name">{{ p.name }}</h3>
