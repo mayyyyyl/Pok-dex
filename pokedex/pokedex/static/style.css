@@ -46,6 +46,37 @@ img {
 
 .pokemon_name {
     text-align: center;
-    text-transform: capitalize;
     font-weight: 400;
+    margin-bottom: .8em;
+}
+
+.pokemon_number {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.show_modal.btn {
+    display: inherit;
+    background-color: blueviolet;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: .8em;
+}
+
+.modal-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.modal-list-title {
+    text-transform: capitalize;
+    font-weight: 600;
 }
