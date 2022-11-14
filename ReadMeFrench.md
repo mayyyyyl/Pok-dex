@@ -1,21 +1,21 @@
 # Pok-dex
 
-[Read me in French](https://github.com/mayyyyyl/Pokedex/blob/main/ReadMeFrench.md)  
+[Read me en Anglais](https://github.com/mayyyyyl/Pokedex/blob/main/README.md)  
 
-This repositorie is a pokedex in Python and Django for your school.
-This exercice was performed by a group of four student who will be presented below.
+Ce repo est un pokedex pour un exercice en python et django pour l'école EPSI de Nantes.  
+Cette exercice à était réaliser par un groupe de quatre étudiant qui sera présenter plus bas.
 
 - [Pok-dex](#pok-dex)
-  - [Initialization](#initialization)
+  - [Initialisation](#initialisation)
   - [Language / Techno / Framework](#language--techno--framework)
   - [Teams](#teams)
 
-## Initialization
+## Initialisation
 
-- Start by git clone the repo
-- Lanch the virtuel environnement ?
+- Commencer par git clone le repo
+- Lancer l'environnement virtuel ?
 - activate python ?
-- go surf an the site and have fun
+- aller sur le site et amuser vous ?
 
 ## Language / Techno / Framework
 
@@ -26,12 +26,12 @@ This exercice was performed by a group of four student who will be presented bel
 
 ## Teams
 
-The teams is compose by Maylis, Zineb, Pierre and Alison.  
-We are all four students at EPSI school in 3rd year of Bachelor DevOps.  
+L'équipe est composé Maylis, Zineb, Pierre et Alison.  
+Nous sommes tout les quatres étudiant à l'EPSI en 3eme année de Bachelor DevOps.
 
 [Github de Maylis](https://github.com/mayyyyyl)  
-[Github de Zineb](https://github.com/)  
+[Github de Zineb](https://github.com/Cieprojets)  
 [Github de Pierre](https://github.com/PierreA-Dev)  
 [Github de Alison](https://github.com/AlisonSerra)  
 
-We all want to thank Google and Stackoverflow for their very valuable help.
+Nous voulions tous remercier Google et Stackoverflow pour leur aide très précieuse.
