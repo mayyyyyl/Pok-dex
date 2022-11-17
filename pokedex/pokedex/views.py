@@ -24,12 +24,11 @@ def index(request):
       req = requests.get(f"https://pokeapi.co/api/v2/pokemon/{rep.lower()}")
       if req.status_code == 404:
         message = "Nous n'avons pas trouvé votre pokémon, désolé"
-        context['message'] = message
+      elif req.status_code == 200:
+        message = f"{rep.capitalize()} est présent dans notre pokedex"
+      context['message'] = message
     except Exception:
       message = "Une erreur est survenue, veuillez recommencer votre recherche"
-      context['message'] = message
-  else:
-      message = "Veuillez remplir le champ pour effectuer une recherche"
       context['message'] = message
 
 

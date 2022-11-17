@@ -110,3 +110,10 @@ ul {
 .form-group>label {
     color: white;
 }
+
+#search_result {
+    color: white;
+    padding: 0.5em;
+    margin: .3em;
+    font-style: italic;
+}
