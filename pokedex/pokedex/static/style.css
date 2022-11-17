@@ -3,7 +3,6 @@
 /* Import de font */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
 * {
     box-sizing: border-box;
     font-family: 'Lato';
@@ -13,19 +12,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #bb2204 !important;
     justify-content: center;
     margin: 0;
-    background-color: #ffffff;
 }
 
 h1 {
+    padding: .6em;
     text-align: center;
-    font-weight: 500;
-    font-size: 2.5em;
+    font-family: 'Pokemon';
+    font-weight: 600;
+    font-size: 3.5em;
+    color: #ffffff;
 }
 
 img {
     max-width: 10em;
+}
+
+.btn_poke {
+    background-image: src"";
+    background-color: #DF2700 !important;
+    color: #ffffff !important;
+    border: none !important;
+    font-family: 'Pokemon' !important;
 }
 
 .pokemon_container {
@@ -38,7 +48,7 @@ img {
 }
 
 .pokemon_card {
-    background-color: rgb(214, 214, 214);
+    background-color: #fff8f8;
     border: 10px;
     border-radius: .3em;
     margin: .2em;
@@ -54,14 +64,23 @@ img {
     text-align: center;
     font-size: 0.8em;
     font-weight: 600;
+    font-family: 'Pokemon';
 }
 
 .show_modal.btn {
     display: inherit;
-    background-color: blueviolet;
     border: none;
     margin: 0 auto;
     margin-bottom: .8em;
+    font-family: 'Pokemon';
+    font-weight: 100;
+    background-color: #DF2700;
+    color: #ffffff;
+}
+
+.show_modal.btn:hover {
+    background-color: none;
+    color: black;
 }
 
 .modal-list {
@@ -79,4 +98,15 @@ ul {
 .modal-list-title {
     text-transform: capitalize;
     font-weight: 600;
+    font-family: 'Pokemon';
+}
+
+#pokemon_input {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid rgb(255, 255, 15);
+}
+
+.form-group>label {
+    color: white;
 }

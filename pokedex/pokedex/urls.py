@@ -20,5 +20,5 @@ from pokedex import views
 urlpatterns = [
    path('admin/', admin.site.urls),
    path('',views.index,name='index'),
-   path('pokedex/', views.pokemon, name="pokemon"),
+   path('equipe/', views.equipe, name="equipe"),
 ]
