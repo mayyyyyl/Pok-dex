@@ -32,8 +32,8 @@ img {
 
 .btn_poke {
     background-image: src"";
-    background-color: #DF2700 !important;
-    color: #ffffff !important;
+    color: #3d3dbc !important;
+    /* color: #ffffff !important; */
     border: none !important;
     font-family: 'Pokemon' !important;
 }
@@ -83,21 +83,25 @@ img {
     color: black;
 }
 
-.modal-body-body{
+.modal-body-body {
     display: flex;
     align-items: center;
     justify-content: space-around;
     align-content: space-around;
-    background-color: darkgray;
+    background-image: linear-gradient(#DF2700, rgb(179, 0, 0));
+    color: white;
     border-radius: 1em;
 }
 
 .modal-list {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    margin-top: 1.5em !important;
+    background-image: linear-gradient(#DF2700, rgb(141, 0, 0));
+    color: white;
+    border-radius: 1em;
 }
 
 ul {
@@ -135,6 +139,10 @@ ul {
     font-weight: 600 !important;
 }
 
-.form-row{
+.form-row {
     padding-right: 5%;
+}
+
+.modal-body-list {
+    padding: 1em;
 }

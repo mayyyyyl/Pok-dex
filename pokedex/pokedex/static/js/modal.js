@@ -15,7 +15,7 @@ async function get_data(value) {
 
     for (let i = 0; i < data.stats.length; i++) {
 
-        html += `<ul><li>${data.stats[i].stat.name}: ${data.stats[i].base_stat}</li><li>effort: ${data.stats[i].effort}</li></ul>`
+        html += `<ul class="modal-body-list"><li>${data.stats[i].stat.name}: ${data.stats[i].base_stat}</li><li>effort: ${data.stats[i].effort}</li></ul>`
     }
     list.innerHTML = html;
 }
