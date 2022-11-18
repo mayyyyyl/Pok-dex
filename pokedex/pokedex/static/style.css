@@ -83,6 +83,15 @@ img {
     color: black;
 }
 
+.modal-body-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: darkgray;
+    border-radius: 1em;
+}
+
 .modal-list {
     display: flex;
     flex-direction: row;
@@ -102,13 +111,15 @@ ul {
 }
 
 #pokemon_input {
-    width: 50%;
+    width: 60%;
+    padding-right: 20px;
     margin: 0 auto;
     border: 3px solid rgb(255, 255, 15);
 }
 
 .form-group>label {
     color: white;
+    padding-right: 16%;
 }
 
 #search_result {
@@ -122,4 +133,8 @@ ul {
     background-color: white !important;
     color: #DF2700 !important;
     font-weight: 600 !important;
+}
+
+.form-row{
+    padding-right: 5%;
 }

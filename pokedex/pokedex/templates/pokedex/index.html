@@ -25,15 +25,23 @@
 
 <body>
   <h1>Bienvenue sur notre Pokedex</h1>
+  <a href="/equipe">
+    <button class="btn-search btn">Equipe</button>
+  </a>
   <div class="container m-5 text-center">
     <div class="row">
-      <div class="col-12 align-self-center">
+      <div class="col-2 align-self-center">
+        <a href="/equipe">
+          <button class="btn-search btn">Equipe</button>
+        </a>
+      </div>
+      <div class="col-10 align-self-center">
         <div class=" form-row">
           <div class="form-group col">
             <label for="pokemon" class="control-label pb-2">Rechercher parmi les {{ pokemon_list|length }} pokémon
               disponibles !</label>
-            <form class="d-flex" action="" method="get">
-              <input type="text" class="form-control text-lowercase" id="pokemon_input" name="pokemon"
+            <form class="d-flex " action="" method="get">
+              <input type="text" class="form-control text-lowercase input-lg" id="pokemon_input" name="pokemon"
                 autocomplete="off" required>
               <button class="btn-search btn" type="submit">Rechercher</button>
             </form>
@@ -68,10 +76,10 @@
                   <div class="modal-body">
                     <div class="container">
                       <div class="row">
-                        <div class="col-6">
+                        <div class="col-9">
                           <img src="/static/img/{{ forloop.counter}}.png" alt="img_pokemon" />
                         </div>
-                        <div class="col-6 text-center" id="ModalBody{{ forloop.counter }}"></div>
+                        <div class="col-3 text-center modal-body-body" id="ModalBody{{ forloop.counter }}"></div>
                         <div class="col-12 modal-list" id="ModalList{{ forloop.counter}}"></div>
                       </div>
                     </div>
