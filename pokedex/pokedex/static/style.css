@@ -117,3 +117,9 @@ ul {
     margin: .3em;
     font-style: italic;
 }
+
+.btn-search {
+    background-color: white !important;
+    color: #DF2700 !important;
+    font-weight: 600 !important;
+}
