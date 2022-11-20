@@ -1,11 +1,11 @@
-# Pok-dex
+# Pokedex
 
 [Read me in French](https://github.com/mayyyyyl/Pokedex/blob/main/ReadMeFrench.md)  
 
 This repository is a pokedex in Python with the framework Django.
 This exercise was performed by a group of four students who will be presented below.
 
-- [Pok-dex](#pok-dex)
+- [Pokedex](#pokedex)
   - [Initialization](#initialization)
   - [Language / Techno / Framework](#language--techno--framework)
   - [Teams](#teams)
