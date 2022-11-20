@@ -39,8 +39,11 @@ The team is composed by Maylis, Zineb, Pierre and Alison.
 We are all four students at EPSI school in 3rd year of Bachelor DevOps.  
  
 [Github de Zineb](https://github.com/Cieprojets)  
-[Github de Pierre](https://github.com/PierreA-Dev)  
-[Github de Alison](https://github.com/AlisonSerra) 
-[Github de Maylis](https://github.com/mayyyyyl) 
+
+[Github de Pierre](https://github.com/PierreA-Dev)
+
+[Github de Alison](https://github.com/AlisonSerra)
+
+[Github de Maylis](https://github.com/mayyyyyl)
 
 We all want to thank Google and Stackoverflow for their very valuable help.
