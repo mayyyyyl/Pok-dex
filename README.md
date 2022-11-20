@@ -2,8 +2,8 @@
 
 [Read me in French](https://github.com/mayyyyyl/Pokedex/blob/main/ReadMeFrench.md)  
 
-This repositorie is a pokedex in Python and Django for your school.
-This exercice was performed by a group of four student who will be presented below.
+This repository is a pokedex in Python with the framework Django.
+This exercise was performed by a group of four students who will be presented below.
 
 - [Pok-dex](#pok-dex)
   - [Initialization](#initialization)
@@ -12,10 +12,18 @@ This exercice was performed by a group of four student who will be presented bel
 
 ## Initialization
 
-- Start by git clone the repo
-- Lanch the virtuel environnement ?
-- activate python ?
-- go surf an the site and have fun
+```
+- open terminal
+- git clone https://github.com/mayyyyyl/Pokedex.git
+- py -3 -m venv venv
+- venv\scripts\activate
+- pip install -r pokedex/requirements.txt
+- py pokedex/manage.py migrate
+- py pokedex/manage.py runserver
+- you can see it on your localhost
+- have fun on our website !
+
+```
 
 ## Language / Techno / Framework
 
@@ -23,15 +31,16 @@ This exercice was performed by a group of four student who will be presented bel
 [![made-with-HTML](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![made-with-HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://fr.wikipedia.org/wiki/HTML5)
 [![made-with-CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
+[![made-with-CSS](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
 ## Teams
 
-The teams is compose by Maylis, Zineb, Pierre and Alison.  
+The team is composed by Maylis, Zineb, Pierre and Alison.  
 We are all four students at EPSI school in 3rd year of Bachelor DevOps.  
-
-[Github de Maylis](https://github.com/mayyyyyl)  
+ 
 [Github de Zineb](https://github.com/Cieprojets)  
 [Github de Pierre](https://github.com/PierreA-Dev)  
-[Github de Alison](https://github.com/AlisonSerra)  
+[Github de Alison](https://github.com/AlisonSerra) 
+[Github de Maylis](https://github.com/mayyyyyl) 
 
 We all want to thank Google and Stackoverflow for their very valuable help.

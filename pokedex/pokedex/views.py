@@ -7,10 +7,20 @@ urlPokedex = 'https://pokeapi.co/api/v2/pokemon?limit=151&offset=0'
 
 def equipe(request):
   """ Renvoie la page equipe """
+
+  equipe = ['equipe_test']
+
+  # réponse de la création d'équipe
+  rep = request.GET.get("create_equipe")
+
+  if rep:
+    equipe.append(rep)
+
   return render(request, "equipe.html")
 
 def index(request):
-  """ Renvoie la page pokedex/index"""
+  """ Renvoie la page pokedex/index """
+
   req = requests.get(urlPokedex)
   wb = req.json()
   context = {"pokemon_list": wb['results']}

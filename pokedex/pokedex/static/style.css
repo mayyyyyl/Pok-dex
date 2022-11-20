@@ -26,16 +26,17 @@ h1 {
         1px 1px #3d3dbc, -1px -1px #3d3dbc, 1px -1px #3d3dbc, -1px 1px #3d3dbc;
 }
 
-img {
-    max-width: 10em;
+/* ---------------- Style de la page d'accueil ---------------- */
+
+#pokemon_input {
+    width: 60%;
+    padding-right: 20px;
+    margin: 0 auto;
+    border: 3px solid rgb(255, 255, 15);
 }
 
-.btn_poke {
-    background-image: src"";
-    color: #3d3dbc !important;
-    /* color: #ffffff !important; */
-    border: none !important;
-    font-family: 'Pokemon' !important;
+img {
+    max-width: 10em;
 }
 
 .pokemon_container {
@@ -83,49 +84,6 @@ img {
     color: black;
 }
 
-.modal-body-body {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-content: space-around;
-    background-image: linear-gradient(#DF2700, rgb(179, 0, 0));
-    color: white;
-    border-radius: 1em;
-}
-
-.modal-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 1.5em !important;
-    background-image: linear-gradient(#DF2700, rgb(141, 0, 0));
-    color: white;
-    border-radius: 1em;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.modal-list-title {
-    text-transform: capitalize;
-    font-weight: 600;
-    font-family: 'Pokemon';
-}
-
-#pokemon_input {
-    width: 60%;
-    padding-right: 20px;
-    margin: 0 auto;
-    border: 3px solid rgb(255, 255, 15);
-}
-
-.form-group>label {
-    color: white;
-    padding-right: 16%;
-}
-
 #search_result {
     color: white;
     padding: 0.5em;
@@ -143,6 +101,66 @@ ul {
     padding-right: 5%;
 }
 
+/* -------- Style du modal -------- */
+
+.modal-body-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-image: linear-gradient(#DF2700, rgb(179, 0, 0));
+    color: white;
+    border-radius: 1em;
+}
+
 .modal-body-list {
     padding: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.modal-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.5em !important;
+    background-image: linear-gradient(#DF2700, rgb(141, 0, 0));
+    color: white;
+    border-radius: 1em;
+}
+
+.modal-list-title {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Pokemon';
+}
+
+.btn_poke {
+    color: #3d3dbc !important;
+    border: none !important;
+    font-family: 'Pokemon' !important;
+}
+
+/* ---------------- Style de la page equipe ---------------- */
+
+#create_equipe {
+    width: 40%;
+    padding: .5em;
+    margin: 1em;
+    border: 3px solid rgb(255, 255, 15);
+}
+
+#form-create-equipe {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.form-group>label {
+    color: white;
+    padding-right: 16%;
 }
