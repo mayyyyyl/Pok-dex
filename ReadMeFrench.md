@@ -1,21 +1,29 @@
-# Pok-dex
+# Pokedex
 
-[Read me en Anglais](https://github.com/mayyyyyl/Pokedex/blob/main/README.md)  
+[Read me in English](https://github.com/mayyyyyl/Pokedex/blob/main/README.md)  
 
-Ce repo est un pokedex pour un exercice en python et django pour l'école EPSI de Nantes.  
-Cette exercice à était réaliser par un groupe de quatre étudiant qui sera présenter plus bas.
+Ce dépôt est un pokedex pour un exercice en Python avec le framework Django pour l'école EPSI de Nantes.  
+Cet exercice a été réalisé par un groupe de quatre étudiants qui sera présenté plus bas.
 
-- [Pok-dex](#pok-dex)
+- [Pokedex](#pokedex)
   - [Initialisation](#initialisation)
   - [Language / Techno / Framework](#language--techno--framework)
   - [Teams](#teams)
 
 ## Initialisation
 
-- Commencer par git clone le repo
-- Lancer l'environnement virtuel ?
-- activate python ?
-- aller sur le site et amuser vous ?
+```
+- ouvrir terminal
+- git clone https://github.com/mayyyyyl/Pokedex.git
+- py -3 -m venv venv
+- venv\scripts\activate
+- pip install -r pokedex/requirements.txt
+- py pokedex/manage.py migrate
+- py pokedex/manage.py runserver
+- vous pouvez voir le site sur votre localhost
+- amusez-vous bien !
+
+```
 
 ## Language / Techno / Framework
 
@@ -26,12 +34,12 @@ Cette exercice à était réaliser par un groupe de quatre étudiant qui sera pr
 
 ## Teams
 
-L'équipe est composé Maylis, Zineb, Pierre et Alison.  
-Nous sommes tout les quatres étudiant à l'EPSI en 3eme année de Bachelor DevOps.
-
-[Github de Maylis](https://github.com/mayyyyyl)  
+L'équipe est composée Maylis, Zineb, Pierre et Alison.  
+Nous sommes tous les quatre étudiants à l'EPSI en 3eme année de Bachelor DevOps.
+ 
 [Github de Zineb](https://github.com/Cieprojets)  
 [Github de Pierre](https://github.com/PierreA-Dev)  
-[Github de Alison](https://github.com/AlisonSerra)  
+[Github de Alison](https://github.com/AlisonSerra) 
+[Github de Maylis](https://github.com/mayyyyyl) 
 
 Nous voulions tous remercier Google et Stackoverflow pour leur aide très précieuse.
