@@ -21,9 +21,9 @@ h1 {
     padding: .6em;
     text-align: center;
     font-family: 'Pokemon';
-    font-weight: 600;
-    font-size: 3.5em;
-    color: #ffffff;
+    color: rgb(255, 255, 15);
+    text-shadow: 2px 0 #3d3dbc, -2px 0 #3d3dbc, 0 2px #3d3dbc, 0 -2px #3d3dbc,
+        1px 1px #3d3dbc, -1px -1px #3d3dbc, 1px -1px #3d3dbc, -1px 1px #3d3dbc;
 }
 
 img {
