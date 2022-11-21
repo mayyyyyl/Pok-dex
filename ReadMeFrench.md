@@ -33,7 +33,7 @@ Cet exercice a été réalisé par un groupe de quatre étudiants qui sera prés
 [![made-with-CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![made-with-CSS](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-- Django : framework web qui a permit le développement en python du Poekedex. Nous avons choisi ce framework Open Source pour sa simplicité et sa flexibilité. 
+- Django : framework web qui a permis le développement en python du Poekedex. Nous avons choisi ce framework Open Source pour sa simplicité et sa flexibilité. 
 - HTML/CSS : pour construire et styler les pages du site.
 - Bootstrap : framework CSS gratuit et Open Source créé par Twitter. Bootstrap à pour but
 de faire fonctionner de manière optimale sur toutes les tailles d’écran l’interface utilisateur. Il fournit aussi une standardisation des éléments graphiques comme les boutons.
