@@ -33,9 +33,14 @@ This exercise was performed by a group of four students who will be presented be
 [![made-with-CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![made-with-CSS](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
+- Django: web framework that enabled the python development of the Pokedex. We chose this Open Source framework for its simplicity and flexibility.
+- HTML/CSS : to build and style the pages of the site.
+- Bootstrap : free CSS and Open Source framework created by Twitter. Bootstrap is designed to operate optimally on all screen sizes of the user interface. It also provides a standardization of graphic elements such as buttons.
+- Git Hub : to work in a group on the project and commits changes on branchs, it's a useful tool for the project organisation.
+
 ## Teams
 
-The team is composed by Maylis, Zineb, Pierre and Alison.  
+The team is composed by Maylis, Zineb, Pierre and Alison.
 We are all four students at EPSI school in 3rd year of Bachelor DevOps.  
  
 [Github de Zineb](https://github.com/Cieprojets)  
